@@ -1,10 +1,8 @@
 import { setupTicTacToe } from "./tic-ta-toe";
 
 document.querySelector('#app').innerHTML = `
-  <div>
-    <h1>Wellcome to Tic-tac-toe!</h1>
-    <div id="tictactoe" />    
-  </div>
+  <h1>Wellcome to Tic-tac-toePVZ!</h1>
+  <div id="tictactoe" class="tic-tac-toe"/>    
 `;
 
 setupTicTacToe(document.querySelector('#tictactoe'))
